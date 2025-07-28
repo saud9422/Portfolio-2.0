@@ -1,0 +1,103 @@
+.container-fluid{
+    width: 100dvw;
+    background: #232323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 1rem;
+}
+.container-fluid h2{
+    font-size: clamp(2rem ,2.8vw,5rem);
+    font-weight: 600;
+}
+#heading-para{
+    font-size: clamp(1rem ,1.5vw,3rem);
+    width: 60%;
+    text-align: center;
+    color: rgb(173, 170, 170);
+}
+
+.cantainer{
+    width: 90%;
+    height: 100%;
+    background-color: #232323;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 2rem;
+
+}
+.about{
+ 
+    width: 45%;
+
+}
+.skills{
+    
+    width: 52%;
+    height: 80dvh;
+    padding: 2rem 1rem;
+    
+}
+.journey{
+    background-color: #363636;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.education{
+      background-color: #363636;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+h3{
+    color: rgb(8, 119, 255);
+    font-size: clamp(1.5rem , 2vw ,3rem);
+}
+span{
+    font-size: small;
+    padding: 0.3rem 0.8rem;
+    background-color: rgb(18, 35, 52);
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    color: rgb(88, 150, 251);
+
+}
+.front-end{
+    margin-bottom: 3rem;
+}
+.back-end{
+    margin-bottom: 3rem;
+}
+.frontend-group{
+    margin-top: 1rem;
+}
+.group{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+h5{
+    font-size: clamp(1.2rem,1.5vw,3rem);
+}
+h6{
+    font-size: clamp(1rem,1vw,2.5rem);
+    color: rgb(180, 180, 180);
+}
+
+@media(max-width:600px){
+    .about{
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+    }
+}

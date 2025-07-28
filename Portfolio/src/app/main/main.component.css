@@ -1,0 +1,94 @@
+.container-fluid{
+  width: 100dvw;
+  height: 100dvh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap:wrap; 
+}
+
+.text-content{
+  
+  width: max-content;
+  height: max-content;
+  padding-left: 1rem;
+  
+}
+.text-content h2{
+  color: white;
+  font-size: clamp(2rem,4vw,5rem);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.text-content h3{
+  color: rgb(154, 153, 153);
+  font-weight: 400;
+   font-size: clamp(1.5rem,2.2vw,4rem);
+   margin-bottom: 0.8rem;
+}
+.text-content p{
+  color: rgb(154, 153, 153);
+  width: 60%;
+   font-size: clamp(0.8rem,1.2vw,2rem);
+   margin-bottom: 1.2rem;
+}
+.btn-hire{
+  padding: 0.5rem 3rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  background: rgb(0, 110, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.btn-contact{
+  padding: 0.5rem 2.2rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  background: rgb(2, 12, 24);
+  color: rgb(24, 128, 232);
+  border: 1px solid rgb(0, 85, 255);
+  border-radius: 4px; 
+}
+
+.image{
+  margin-right: 8rem;
+}
+.photo{
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px rgb(19, 92, 218),-1px -1px 100px rgb(19, 92, 218);
+}
+@media(max-width:600px){
+  .image{margin: 0;}
+  .container-fluid{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+
+  }
+  .text-content{
+
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .text-content h2{
+    margin: 0;
+  }
+  p{
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50%;
+  }
+  .btn-hire , .btn-contact{
+    padding: 0.3rem 2rem;
+  }
+  .photo{
+    width: 250px;
+    height: 250px;
+  }
+}

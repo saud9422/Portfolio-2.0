@@ -1,0 +1,92 @@
+.container-fluid {
+  width: 100dvw;
+  height: max-content;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 1rem;
+}
+.card-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: max-content;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.card {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  height: max-content;
+}
+.blue-part {
+  background-color: rgba(5, 46, 96, 0.521);
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: min(2rem, 8%);
+  
+}
+.black-part {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  padding: min(1.5rem, 8%);
+}
+span{
+    color: rgb(63, 160, 251);
+    border: 1px solid rgb(68, 139, 237);
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    margin-right: 0.8rem;
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+h2{
+      font-size: clamp(2rem ,2.8vw,5rem);
+    font-weight: 600;}
+    
+h3{
+    color: rgb(64, 144, 249);
+    margin-top: 0.8rem;
+}
+p{
+    color: rgb(162, 162, 162);
+}
+h4{
+    font-size: clamp(1.3rem,1.3vw,2rem);
+    margin: 1rem 0;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.group span{
+    border: none;
+    background-color: rgb(4, 4, 35);
+    color: rgb(87, 146, 242);
+}
+ul li::marker{
+    color: rgb(50, 137, 252);
+    font-size: 1.4rem;
+
+}
+ul li{
+    font-size:medium ;
+}
+button{
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 145, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
